@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/iamprincesly/planet-app/issues"
   },
-  "homepage": "https://github.com/iamprincesly/planet-app#readme"
+  "homepage": "https://github.com/iamprincesly/planet-app#readme",
+  "dependencies": {
+    "csv-parse": "^5.0.4"
+  }
 }
