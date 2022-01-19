@@ -1,0 +1,20 @@
+{
+  "name": "planet-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamprincesly/planet-app.git"
+  },
+  "keywords": [],
+  "author": "Sylvanus Etim <iamprincesly@gmail.com> (https://github.com/iamprincesly/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamprincesly/planet-app/issues"
+  },
+  "homepage": "https://github.com/iamprincesly/planet-app#readme"
+}
