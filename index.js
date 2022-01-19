@@ -15,8 +15,8 @@ function isHabitablePlanet(planet) {
 fs.createReadStream('kepler_data.csv')
     .pipe(
         parse({
-            comments: '#',
-            column: true,
+            comment: '#',
+            columns: true,
         })
     )
     .on('data', (data) => {
@@ -33,5 +33,5 @@ fs.createReadStream('kepler_data.csv')
                 return planet['kepler_name'];
             })
         );
-        console.log(`${habitablePlanets} habitable planets found`);
+        console.log(`${habitablePlanets.length} habitable planets found`);
     });
